@@ -8,7 +8,7 @@ const Home: React.FC = () => {
       {/* Header Section */}
       <header className="bg-[#000] shadow-lg p-4">
         <nav className="container mx-auto items-center">
-          <div className="text-2xl font-bold text-white font-syne">Shirt and Moore</div>
+          <div className="text-2xl font-bold text-white font-syne">Shirt And Moore</div>
         </nav>
       </header>
 
@@ -29,7 +29,7 @@ const Home: React.FC = () => {
       {/* Footer Section */}
       <footer className="bg-[#000] text-white py-6">
         <div className="container mx-auto text-center">
-          <p className='font-syne'>© 2024 ShirtandMoore. All Rights Reserved.</p>
+          <p className='font-syne'>© 2024 ShirtAndMoore. All Rights Reserved.</p>
         </div>
       </footer>
     </div>

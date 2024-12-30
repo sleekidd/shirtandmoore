@@ -36,19 +36,19 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
   return (
     <div className="flex flex-wrap mx-auto gap-[16px] text-center justify-center text-white rounded-lg">
       <div className="border-[2px] border-[#000] rounded-[16px] px-8 py-4 mx-auto w-[156px]">
-        <div className="text-[32px] lg:text-[80px] font-bold font-syne leading-[40px] lg:leading-[96px] text-[#000]">{timeLeft.days}</div>
+        <div className="flex justify-center text-[32px] lg:text-[80px] font-bold font-syne leading-[40px] lg:leading-[96px] text-[#000]">{timeLeft.days}</div>
         <div className="text-[16px] font-bold font-syne leading-[24px] text-[#000]">Days</div>
       </div>
       <div className="border-[2px] border-[#000] rounded-[16px] px-8 py-4 mx-auto w-[156px]">
-        <div className="text-[32px] lg:text-[80px] font-bold font-syne leading-[40px] lg:leading-[96px] text-[#000]">{timeLeft.hours}</div>
+        <div className="flex justify-center text-[32px] lg:text-[80px] font-bold font-syne leading-[40px] lg:leading-[96px] text-[#000]">{timeLeft.hours}</div>
         <div className="text-[16px] font-bold font-syne leading-[24px] text-[#000]">Hours</div>
       </div>
       <div className="border-[2px] border-[#000] rounded-[16px] px-8 py-4 mx-auto w-[156px]">
-        <div className="text-[32px] lg:text-[80px] font-bold font-syne leading-[40px] lg:leading-[96px] text-[#000]">{timeLeft.minutes}</div>
+        <div className="flex justify-center text-[32px] lg:text-[80px] font-bold font-syne leading-[40px] lg:leading-[96px] text-[#000]">{timeLeft.minutes}</div>
         <div className="text-[16px] font-bold font-syne leading-[24px] text-[#000]">Minutes</div>
       </div>
       <div className="border-[2px] border-[#000] rounded-[16px] px-8 py-4 mx-auto w-[156px]">
-        <div className="text-[32px] lg:text-[80px] font-bold font-syne leading-[40px] lg:leading-[96px] text-[#000]">{timeLeft.seconds}</div>
+        <div className="flex justify-center text-[32px] lg:text-[80px] font-bold font-syne leading-[40px] lg:leading-[96px] text-[#000]">{timeLeft.seconds}</div>
         <div className="text-[16px] font-bold font-syne leading-[24px] text-[#000]">Seconds</div>
       </div>
     </div>
